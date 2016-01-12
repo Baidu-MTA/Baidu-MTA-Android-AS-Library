@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- general -->
+    <dimen name="mta_divide_line_width">1dip</dimen>
+    <dimen name="mta_alert_round_bg_radius">3dip</dimen>
+
+    <!--bug detail activity-->
+    <dimen name="btg_tag_ripple_size">20dip</dimen>
+    <dimen name="btg_tag_height_max">50dip</dimen>
+    <dimen name="btg_tag_ripple_foreground_size">15dip</dimen>
+
+    <!--bug detail window-->
+    <dimen name="mta_bug_detail_banner_text_size">13sp</dimen>
+    <dimen name="mta_bug_detail_button_text_size">18sp</dimen>
+    <dimen name="mta_bug_detail_button_text_padding">5dip</dimen>
+    <dimen name="mta_bug_detail_button_text_margin">1dip</dimen>
+
+    <!--float menu-->
+    <dimen name="mta_float_menu_hight">52dip</dimen>
+    <dimen name="mta_float_menu_icon_width">52dip</dimen>
+
+    <!--float arrow-->
+    <dimen name="mta_float_arrow_hight">35dip</dimen>
+    <dimen name="mta_float_arrow_icon_width">30dip</dimen>
+    <dimen name="mta_float_arrow_text_size">12sp</dimen>
+    <dimen name="mta_float_arrow_icon_text_padding">20dip</dimen>
+    <dimen name="mta_float_arrow_text_head_padding">12dip</dimen>
+    <dimen name="mta_float_arrow_text_tail_padding">2dip</dimen>
+    <integer name="mta_float_arrow_text_max_lines">2</integer>
+    <dimen name="mta_float_arrow_icon_offset">1.5dip</dimen>
+    <dimen name="mta_float_arrow_text_max_width">150dip</dimen>
+    
+    <!--user center-->
+    <dimen name="mta_user_center_top_text_padding">10dip</dimen>
+    <dimen name="mta_user_center_button_hight">52dip</dimen>
+    <dimen name="mta_user_center_button_width">180dip</dimen>
+    <dimen name="mta_user_center_button_text_size">21sp</dimen>
+    <dimen name="mta_user_center_button_text_padding">6dip</dimen>
+    <dimen name="mta_user_center_button_text_margin">2dip</dimen>
+    
+    <!-- passport -->
+    <dimen name="mta_passport_webview_title_height">43dip</dimen>
+    <dimen name="mta_passport_webview_title_arrow_padding_bound">13dip</dimen>
+    <dimen name="mta_passport_webview_title_arrow_padding">6dip</dimen>
+    <dimen name="mta_passport_webview_title_text_size">23sp</dimen>
+    
+    
+</resources>

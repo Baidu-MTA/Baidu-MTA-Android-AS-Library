@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/mta_bugtag_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mta_color_semitransparent"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <ImageView
+        	android:id="@+id/mta_local_snap"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+</LinearLayout>

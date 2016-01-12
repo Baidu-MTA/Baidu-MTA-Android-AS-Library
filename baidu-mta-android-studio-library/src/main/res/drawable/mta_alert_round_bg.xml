@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke
+                android:width="0dp"
+                android:color="@color/mta_color_semitransparent" />
+
+            <solid android:color="#F0F0F0" />
+
+            <corners
+                android:topRightRadius="@dimen/mta_alert_round_bg_radius"
+                android:topLeftRadius="@dimen/mta_alert_round_bg_radius"
+                android:bottomRightRadius="@dimen/mta_alert_round_bg_radius"
+                android:bottomLeftRadius="@dimen/mta_alert_round_bg_radius"
+                />
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+        </shape>
+    </item>
+
+</selector>

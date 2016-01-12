@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/mta_float_sub_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/mta_float_arrow_icon_text_padding"
+        >
+        <TextView
+            android:id="@+id/mta_float_arrow_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:background="@drawable/mta_float_arrow_bg_left"
+            android:paddingLeft="@dimen/mta_float_arrow_text_head_padding"
+            android:paddingRight="@dimen/mta_float_arrow_text_tail_padding"
+            android:maxLines="@integer/mta_float_arrow_text_max_lines"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="@dimen/mta_float_arrow_text_max_width"
+            android:text="请输入描述"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/mta_float_arrow_text_size"
+            />
+    </LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/mta_float_view"
+        android:layout_width="@dimen/mta_float_arrow_icon_width"
+    	android:layout_height="@dimen/mta_float_arrow_hight"
+    	android:layout_gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/mta_float_arrow_anim"
+            android:layout_width="wrap_content"
+    		android:layout_height="@dimen/mta_float_arrow_hight"
+            android:layout_gravity="center"
+            android:src="@drawable/mta_float_icon_anim_red"
+            />
+        
+        <ImageView
+            android:id="@+id/mta_float_arrow_icon"
+            android:layout_width="wrap_content"
+    		android:layout_height="@dimen/mta_float_arrow_hight"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/mta_float_arrow_icon_offset"
+            android:src="@drawable/mta_red_spot"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dip"
+    android:background="@drawable/mta_alert_round_bg"
+    android:gravity="center"
+    android:padding="3dip" >
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/mta_report_user"
+        android:drawablePadding="3dip"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="反馈快照"
+        android:textColor="@android:color/black"
+        android:textSize="21sp" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_below="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@color/mta_color_semitransparent" />
+
+    <TextView
+        android:id="@+id/notag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:drawablePadding="3dip"
+        android:padding="10dip"
+        android:text="本地还没有记录，赶紧新建一条吧"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    
+    <ListView
+        android:id="@+id/bug_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_layout"
+        android:layout_below="@+id/horizontal_line"
+        android:padding="5dip" />
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/detail_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/mta_btn_blue_rect"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="查看详情"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/mta_btn_white_rect"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="返回应用"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

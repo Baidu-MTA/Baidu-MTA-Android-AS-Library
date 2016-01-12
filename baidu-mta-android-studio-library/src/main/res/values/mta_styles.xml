@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- general -->
+	<style name="Theme.MtaTransparent" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    
+	<!-- bug detail -->
+	<style name="mta_vertical_divide_line_style">
+        <item name="android:layout_width">@dimen/mta_divide_line_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/mta_line_vertical</item>
+    </style>
+    
+	<style name="mta_horizontal_divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/mta_divide_line_width</item>
+        <item name="android:background">@drawable/mta_line_horizontal</item>
+    </style>
+	
+	<style name="mta_bug_detail_banner_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:drawablePadding">3dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+	<style name="mta_bug_detail_level_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:drawablePadding">10dip</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    
+	<style name="mta_bug_detail_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/mta_bug_detail_button_text_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/mta_bug_detail_button_text_padding</item>
+        <item name="android:textSize">@dimen/mta_bug_detail_button_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+	<!-- alert -->
+	<style name="mta_alert_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">6dip</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+	<style name="mta_transparent_dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowBackground">@color/mta_color_transparent</item>
+	</style>
+</resources>
